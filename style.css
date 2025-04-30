@@ -1,21 +1,44 @@
-body {
-    background-color: rgb(221, 221, 221);
-}
-
-.cabecalho {
-    background-color: rgba(160, 35, 35, 0.87);
+.body {
+    background-color: #ffffffc2;
 }
 
 .modelo {
-    width: 860px;
+    width: 45%;
     border-radius: 15px;
 }
 
-.btn-primary {
-    background-color: green;
-
+.card {
+    background-color: rgb(240, 240, 240);   
+    max-width: 110%;
+    max-height: 85%;
+    border-radius: 0.6em;
+    display: block;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.192);
+    margin-top: 15%
 }
 
-.card-body {
-    background-color: rgba(255, 255, 255, 0.87);
+.btn-success {
+    display: inline-flex;
+    width: 45%;
+    height: 20%;
+    margin: 22px;
+}
+
+.card-title {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.card-text {
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.card-img-top {
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
